@@ -1,0 +1,44 @@
+{
+    "logged_in": false,
+    "currency_symbol": "<script>alert('XSS')</script>",
+    "currency_code": "<script>alert('XSS')</script>",
+    "country_code": "<script>alert('XSS')</script>",
+    "billing_period": "<script>alert('XSS')</script>",
+    "can_direct_purchase": false,
+    "subscription_plans": [
+        {
+            "name": "<script>alert('XSS')</script>",
+            "guid": "6d53d737",
+            "tier": "Essentials",
+            "can_free_trial": false,
+            "monthly_rate": 165,
+            "annual_rate": 1500,
+            "min_seats": 1,
+            "monthly_tax_rate": null,
+            "annual_tax_rate": null,
+            "max_seats": 1,
+            "signature_request_quota": 100,
+            "is_included_in_coupon": false,
+            "is_current_subscription_plan": false
+        },
+        {
+            "name": "<script>alert('XSS')</script>",
+            "guid": "55059f3d",
+            "tier": "Essentials",
+            "can_free_trial": false,
+            "monthly_rate": 365,
+            "annual_rate": 3300,
+            "min_seats": 1,
+            "monthly_tax_rate": null,
+            "annual_tax_rate": null,
+            "max_seats": 1,
+            "signature_request_quota": 250,
+            "is_included_in_coupon": false,
+            "is_current_subscription_plan": false
+        }
+    ],
+    "external_plans": [],
+    "notifications": [
+        "<script>alert('XSS')</script>"
+    ]
+}
